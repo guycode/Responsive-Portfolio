@@ -224,20 +224,25 @@ input[type=submit] {
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 979px) {
+@media screen and (min-width: 768px) {
   nav {
     padding-right: 50px;
     
   }
 
-  auth-imgage {
-    width: 50%;
+  .auth-image {
+    width: 300px;
     height: auto;
+  }
+  .container {
+   
   }
 }
 
 @media screen and (max-width: 640px) {
-
+.container{
+  height: 40%;
+}
   header{
     position: static;
   }
@@ -251,8 +256,8 @@ margin-left: 4%;
       width: 100%;
       text-align: center;
     }
-    auth-imgage {
-      width: 40%
+    .auth-image {
+      width: 400px;
       height: auto;
     }
   }
